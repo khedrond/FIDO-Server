@@ -61,8 +61,9 @@ For the adventurous who want to explore alternate configurations of the FIDO2 Se
 ### Options with StrongKey FIDO2 Server 
 
 #### Policies and Their Use
+The FIDO2 policy JSON file governs the server's behavior with regard to cryptography, registration, authentication, and additional functionality in the form of WebAuthn extensions and Metadata Service (MDS).
 
-StrongKey installs a default FIDO2 policy with the StrongKey FIDO2 Server in JSON format, encoded using base64urlsafe in the _install-skfs.sh_ script in _/usr/local/strongkey_. The default policy is configured to approve all signature types, but may use any subset of the available attributes. The options provided in the following table allow the methods used to be tailored to your FIDO2 server's needs.
+StrongKey installs a FIDO2 policy with the StrongKey FIDO2 Server, encoded using base64urlsafe, in the _install-skfs.sh_ script in _/usr/local/strongkey_. The installed policy is configured to approve all signature types, but may use any subset of the available attributes. The options provided in the following table allow the methods used to be tailored to your FIDO2 server's needs.
 
 Policy Attribute(s) | Accepted Values &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[...] indicates Multiple Choice  |  Usage Notes
   :---  |  :---  |  :--
@@ -71,7 +72,7 @@ Policy Attribute(s) | Accepted Values &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"elliptic_curves":  |  ["secp256r1", "secp384r1", "secp521r1", "curve25519"] |  EC protocols cannot use RSA keys and vice versa, but can co-exist on the same server, allowing the server to handle both.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"allowed_rsa_signatures":  |  ["rsassa-pkcs1-v1_5-sha1", "rsassa-pkcs1-v1_5-sha256", "rsassa-pkcs1-v1_5-sha384", "rsassa-pkcs1-v1_5-sha512", "rsassa-pss-sha256", "rsassa-pss-sha384", "rsassa-pss-sha512"]  |  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"allowed_ec_signatures":  |  ["ecdsa-p256-sha256", "ecdsa-p384-sha384", "ecdsa-p521-sha512", "eddsa", "ecdsa-p256k-sha256"]  |  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"attestation_types":  |  ["basic", "self", "attca", "ecdaa", "none"]  |  |  Determined by which "attestation_format" is chosen.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"attestation_types":  |  ["basic", "self", "attca", "ecdaa", "none"]  |  Determined by which "attestation_format" (see above) is chosen.
 "registration":  |  | Governs registration behavior.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"attestation":  |  ["none", "indirect", "direct"]  |  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"displayName":  |  ["required", "preferred"]  |  Because everyone needs a display name...
