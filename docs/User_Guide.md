@@ -264,19 +264,6 @@ The StrongKey FIDO2 Server is ready to be deployed.
     
     The StrongKey FIDO2 Server application _Web Application Definition Language (WADL)_ displays.
 
-## WebAuthn Client Files
-StrongKey WebAuthn client uses the following files, contained in the _WebAuthn.tgz_ download, to operate with the StrongKey FIDO2 Server, Community Edition and the sample Relying Party web application code:
-- index.html
-- css/fonts.css
-- css/fido2demo.css
-- js/jquery-3.3.1.min.js
-- js/browserCheck.js
-- js/base64js.min.js
-- js/buffer-5.2.1.js
-- js/base64url.js
-- js/cbor.js
-- js/fido2demo.js
-
 ## Removing the StrongKey FIDO2 Server and Its Components
 
 To uninstall StrongKey FIDO2 Server, run the following command from the */usr/local/strongkey* folder:
