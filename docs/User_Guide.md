@@ -11,7 +11,6 @@
 * [Alternate Configurations](https://github.com/khedrond/FIDO-Server/blob/master/docs/User_Guide.md#alternate-configurations)
   * [Options with StrongKey FIDO2 Server](https://github.com/khedrond/FIDO-Server/blob/master/docs/User_Guide.md#options-with-strongkey-fido2-server)
     * [Policies and Their Use](https://github.com/khedrond/FIDO-Server/blob/master/docs/User_Guide.md#policies-and-their-use)
-    * [Application HOME Folders and the Path](https://github.com/khedrond/FIDO-Server/blob/master/docs/User_Guide.md#application-home-folders-and-the-path)
   * [Options for the Database Server](https://github.com/khedrond/FIDO-Server/blob/master/docs/User_Guide.md#options-for-the-database-server)
     * [Database Schema for StrongKey FIDO2 Server](https://github.com/khedrond/FIDO-Server/blob/master/docs/User_Guide.md#database-schema-for-strongkey-fido2-server)
   * [Options for the Java Web Server](https://github.com/khedrond/FIDO-Server/blob/master/docs/User_Guide.md#options-for-the-java-web-server)
