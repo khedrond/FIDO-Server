@@ -17,7 +17,6 @@
   * [Options for the Java Web Server](https://github.com/khedrond/FIDO-Server/blob/master/docs/User_Guide.md#options-for-the-java-web-server)
     * [Create JDBC Resources](https://github.com/khedrond/FIDO-Server/blob/master/docs/User_Guide.md#create-jdbc-resources)
 * [Deploy StrongKey FIDO2 Server](https://github.com/khedrond/FIDO-Server/blob/master/docs/User_Guide.md#deploy-strongkey-fido2-server)
-* [WebAuthn Client Files](https://github.com/khedrond/FIDO-Server/blob/master/docs/User_Guide.md#webauthn-client-files)
 * [Removing StrongKey FIDO2 Server and Its Components](https://github.com/khedrond/FIDO-Server/blob/master/docs/User_Guide.md#removing-the-strongkey-fido2-server-and-its-components)
 
 ## Overview
