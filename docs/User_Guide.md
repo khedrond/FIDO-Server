@@ -102,9 +102,8 @@ Policy Attribute(s) | Accepted Values &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Specification details and definitions for the above parameters can be found in the following links:
 *  [Web Authentication: An API for accessing Public Key Credentials - Level 2](https://w3c.github.io/webauthn/)
 *  Internet Engineering Task Force (IETF) PKCS #1: RSA Cryptography Specifications Version 2.2 [pages 32-39](https://tools.ietf.org/html/rfc8017#page-32) and [pages 60-62](https://tools.ietf.org/html/rfc8017#page-60)
-*  [Elliptic Curve Digital Signature Algorithm (ECDSA)](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm)
-*  [Edwards-curve Digital Signature Algorithm (EdDSA)](https://en.wikipedia.org/wiki/EdDSA)
-*  [Direct Anonymous Attestation](https://en.wikipedia.org/wiki/Direct_Anonymous_Attestation)
+*  [Elliptic Curve Digital Signature Algorithm (ECDSA)](https://www.ietf.org/rfc/rfc6979.txt)
+*  [Edwards-curve Digital Signature Algorithm (EdDSA)](https://tools.ietf.org/html/rfc8032)
 *  [Authenticator Selection Criteria](https://w3c.github.io/webauthn/#dictdef-authenticatorselectioncriteria)
 *  [MetaData Service (MDS)](https://fidoalliance.org/metadata/)
 
