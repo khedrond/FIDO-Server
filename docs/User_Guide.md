@@ -191,7 +191,7 @@ The database may be on the same or a different machine (virtual or physical) tha
 
 Your database is now installed and configured for StrongKey FIDO2 Server.
 
-### Java Web Server
+### Options for the Java Web Server
 
 The StrongKey FIDO2 Server is fully tested using Payara 4.1 web application server, but other Java web application servers will suffice in the same role. A list of possible choices can be found [here](https://en.wikipedia.org/wiki/List_of_application_servers#Java).
 
